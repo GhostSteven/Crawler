@@ -1,2 +1,2 @@
 # Crawler
-Something about web crawling.
+In this repository, I upload all the projects about web crawling.
