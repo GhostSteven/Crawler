@@ -47,7 +47,7 @@ def get_detail():
     browser.maximize_window()
     time.sleep(0.05)
     for i in range(0, 100):
-        time.sleep(0.05)
+        time.sleep(0.05) # According to your network quality, you may neet to change this sleep time. 
         js = "window.scrollTo(0,%s)" % (i*100)
         browser.execute_script(js)
 
